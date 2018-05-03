@@ -1,3 +1,6 @@
-body {
-    text-align: center;
+.list{
+	float:left;
+}
+.area{
+	float:right;
 }
