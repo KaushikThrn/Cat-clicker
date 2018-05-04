@@ -17,17 +17,24 @@ $(function(){
   };
 
   var model={
-
+       cats:[],
   	   init:function(){
-  	   	var cats=[]
   	   	for(var i=0;i<=4;i++){
-  	   		cats.push({
+  	   		model.cats.push({
   	   			name: `image${i+1}`
   	   		})
   	   	}
-  	   }
+  	   	model.render();
+  	   },
+  	    render:function(){
+    	model.cats.forEach(function(cat){
+        list_dom.append(cat);
+
+    	})
+    	
+    }
   };
   model.init();
-  view.init();
+  //view.init();
  
 }())
