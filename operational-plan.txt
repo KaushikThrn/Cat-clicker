@@ -1,0 +1,21 @@
+cat clicker plan.
+
+view-
+2 divs?-list and viewing area.
+
+each cat an object?-yes but manuall setup based on the number of cats.
+
+octopus will call render and the click functionality
+
+
+
+
+
+
+pizza app-
+
+view is button and pizza view
+
+model-pizza objects
+
+octopus-creation, deletion
