@@ -1,10 +1,11 @@
 $(function(){
 
   var view={
+
   	init:function(){
-         var list_dom=$("#cat-list");
-         var viewing=$("#cat-view");
-         view.render();
+          this.list_dom=$("#cat-list");
+         this.viewing=$("#cat-view");
+         //view.render();
 
   	},
     render:function(){
@@ -24,13 +25,13 @@ $(function(){
   	   			name: `image${i+1}`
   	   		})
   	   	}
+  	   	view.init();
   	   	model.render();
   	   },
   	    render:function(){
     	model.cats.forEach(function(cat){
-        list_dom.append(cat);
-
-    	})
+        view.list_dom.append(`<li class="cat">${cat.name}<\li>`);
+    	});
     	
     }
   };

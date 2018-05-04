@@ -8,14 +8,4 @@ each cat an object?-yes but manuall setup based on the number of cats.
 octopus will call render and the click functionality
 
 
-
-
-
-
-pizza app-
-
-view is button and pizza view
-
-model-pizza objects
-
-octopus-creation, deletion
+.scoping rules for objects and vairables declaration-revise
